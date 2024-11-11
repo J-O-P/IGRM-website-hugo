@@ -1,0 +1,40 @@
+baseURL: https://www.igrm.ch/
+languageCode: en-us
+title: 'Interessensgemeinschaft Records Management'
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: false
+languages:
+  de:
+    languageName: Deutsch
+    languageCode: de-DE
+    title: 'Interessensgemeinschaft Records Management'
+    weight: 1
+    params:
+      subtitle: 'IGRM'
+      description: 'Verein von Fachpersonen und Interessierten im Bereich Information Management'
+    menu:
+      main:
+        - url: /
+          name: Home
+          weight: 100
+        - url: /events/
+          name: Veranstaltungen
+          weight: 200
+        - url: /docs/
+          name: Dokumentation
+          weight: 300
+        - url: /verein/
+          name: Über uns
+          weight: 400
+        - url: /verein/statuten
+          name: Statuten
+          weight: 430
+        - url: /verein/hv
+          name: Hauptversammlungen
+          weight: 420
+        - url: /verein/vorstand
+          name: Vorstand
+          weight: 410
+        - url: /members/
+          name: Mitgliedschaft
+          weight: 500
